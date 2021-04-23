@@ -1,0 +1,19 @@
+@import "../../base";
+
+// .list__session__filmShow__disabled a {
+//     color: #108f3e !important;
+// }
+.times__ticket {
+    font-size: 18px;
+    font-weight: 500;
+    color: #108f3e !important;
+}
+
+.session__filmShow__item{
+    .times__ticket{
+        &:hover{
+            color: #fb4226 !important;
+        }
+    }
+    
+}

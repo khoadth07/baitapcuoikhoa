@@ -1,0 +1,44 @@
+@import "../../base";
+
+.wrapper__tab{
+    display: flex;
+    h3{
+        display: none;
+    }
+}
+.wrapper__systemCinema--fixed{
+    width: 940px;
+    margin: 0px auto;
+    .bg__back-news{
+    background-image: url(../../Assets/img/back-news.png);
+    height: 150px !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center center;
+    }
+}
+
+@media (max-width: 1013px){
+    .wrapper__systemCinema--fixed {
+        width: 709px;
+    }
+}
+
+@media (max-width: 760px){
+    .wrapper__systemCinema--fixed {
+        width: 650px;
+    }
+}
+
+@media (max-width: 698px){
+    .wrapper__systemCinema--fixed {
+        width: 530px;
+    }
+}
+
+
+@media (max-width: 576px ) {
+    .wrapper__systemCinema--fixed{
+        display: none;
+      }
+}

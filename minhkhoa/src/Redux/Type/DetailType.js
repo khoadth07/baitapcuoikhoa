@@ -1,0 +1,4 @@
+export const GET_FIRST_INFO = "GET_FIRST_INFO";
+export const GET_INFO_SHOW_TIME_BY_ID_LOGO="GET_INFO_SHOW_TIME_BY_ID_LOGO";
+export const GET_INFO_FILM_BY_DATE = "GET_INFO_FILM_BY_DATE";
+// export const
